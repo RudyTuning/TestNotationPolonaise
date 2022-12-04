@@ -27,6 +27,12 @@ namespace TestNotationPolonaise
             } while (reponse != carac1 && reponse != carac2);
             return reponse;
         }
+
+        /// <summary>
+        /// calcul d'une formule en polonaise inversée
+        /// </summary>
+        /// <param name="formule">une formule en polonaise inversée</param>
+        /// <returns>le résultat de la formule</returns>
         static float polonaise(String formule)
         {
             try
